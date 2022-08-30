@@ -1,0 +1,75 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+  main{
+      margin: 20px;
+  }
+  /* Style the header */
+  .header {
+    background-image: url(Imagens/valorant.jpg)  ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: left;
+    height: 400px;
+
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+    height: 60px;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  @font-face{
+    font-family: "Valorant";
+    src: url("Fonte/Valorant Font.ttf");
+}
+  .titulo1{
+    font-family: "Valorant";
+    font-size: clamp(6em, 1em + 1vw, 10em);
+    margin: 30px ;
+  }
+  .cabecalho{
+      margin: 100px;
+  }
+  .sub-titulo{
+      font-size: 25px;
+      margin: 30px;
+  }
+  .logo{
+      text-align: right;
+      margin: 10px;
+  }
+  .titulo2{
+      font-family: "Valorant";
+  }
+  .conteudo{
+      font-size: 20px;
+  }
